@@ -1,0 +1,10 @@
+<% layout('layouts/boilerplate') %>
+<!--Now we only need to include this one line instead of making two separate partials for Header and Footer-->
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading"> <%= err.message %> </h4>
+            <p> <%= err.stack %> </p>
+            </div>
+    </div>
+</div>
